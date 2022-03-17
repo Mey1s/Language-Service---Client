@@ -1,0 +1,37 @@
+.addWordForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.addWordFormItem {
+  margin-bottom: 18px;
+}
+
+.addWordFormInput {
+  padding: 10px 15px;
+  line-height: 20px;
+  border-radius: 4px;
+  border: 1px solid #c7c7c7;
+  box-shadow: 1px 1px 2px 0 #c7c7c7;
+}
+
+.addWordSubmitButton {
+  padding: 5px 25px;
+  background-color: indianred;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.addWordSubmitButton:hover {
+  background-color: #d63030;
+}
+
+.addWordErrorMessage {
+  color: #be2323;
+  margin: 0;
+}

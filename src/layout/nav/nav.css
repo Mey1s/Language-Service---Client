@@ -1,0 +1,30 @@
+.listNavApp {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.itemListNavApp {
+  float: left;
+}
+
+.linkInItemListNavApp {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.activeLinkInItemListNavApp {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  background-color: rgb(209, 77, 77);
+  color: rgb(177, 177, 177);
+}
+
+.linkInItemListNavApp:hover {
+  background-color: rgb(209, 77, 77);
+}

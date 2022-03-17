@@ -1,0 +1,26 @@
+.headerContainer {
+  background-color: indianred;
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  width: -webkit-fill-available;
+}
+
+.avatarImageContainer {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.avatarImage {
+  border-radius: 90%;
+}
+
+.logoImage {
+  width: 40px;
+  height: 30px;
+  filter: invert(100%);
+  margin-left: 20px;
+}

@@ -1,0 +1,22 @@
+.languageContainer {
+  text-align: center;
+}
+
+.languageContainer:first-child {
+  margin-top: 0;
+}
+
+.languageButton {
+  padding: 3px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: indianred;
+  border: 1px solid indianred;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 12px;
+}
+
+.languageButton:hover {
+  background-color: rgb(230, 228, 228);
+}
